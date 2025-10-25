@@ -1,4 +1,6 @@
-# Claude-Code-Repo-Managers-ClaudeMD
+# CLAUDE.md Collection For Repo Base Levels
+
+## Provides context to repo base levels and suggests management functions
 
 A collection of CLAUDE.md templates for repository management, designed to work seamlessly with Claude Code CLI.
 
