@@ -1,5 +1,9 @@
  ![alt text](banner.png)
 
+[![Claude Code](https://img.shields.io/badge/Made%20with-Claude%20Code-6366f1?style=for-the-badge&logo=anthropic&logoColor=white)](https://docs.claude.com/claude-code)
+[![Claude Code Projects Index](https://img.shields.io/badge/Claude%20Code-Projects%20Index-4f46e5?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
+[![Master Index](https://img.shields.io/badge/GitHub-Master%20Index-181717?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)
+
 A collection of CLAUDE.md templates for repository management, designed to work seamlessly with Claude Code CLI.
 
 ## Overview
