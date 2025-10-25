@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "description": "Configuration for CLAUDE.md template deployment",
+  "templates": {
+    "hf-spaces": {
+      "name": "Hugging Face Spaces",
+      "description": "Directory for Hugging Face Spaces repositories",
+      "search_patterns": [
+        "~/repos/hugging-face/spaces",
+        "~/repos/huggingface/spaces",
+        "~/huggingface/spaces"
+      ],
+      "validation_rules": {
+        "has_subdirs": ["public", "private"],
+        "or": true
+      }
+    },
+    "hf-datasets": {
+      "name": "Hugging Face Datasets",
+      "description": "Directory for Hugging Face Datasets repositories",
+      "search_patterns": [
+        "~/repos/hugging-face/datasets",
+        "~/repos/huggingface/datasets",
+        "~/huggingface/datasets"
+      ],
+      "validation_rules": {
+        "has_subdirs": ["public", "private"],
+        "or": true
+      }
+    },
+    "hf-models": {
+      "name": "Hugging Face Models",
+      "description": "Directory for Hugging Face Models repositories",
+      "search_patterns": [
+        "~/repos/hugging-face/models",
+        "~/repos/huggingface/models",
+        "~/huggingface/models"
+      ]
+    },
+    "for-gh-repo-base": {
+      "name": "GitHub Repositories Base",
+      "description": "Base directory for all GitHub repositories",
+      "search_patterns": [
+        "~/repos/github",
+        "~/github",
+        "~/repos/gh"
+      ],
+      "validation_rules": {
+        "min_git_repos": 5
+      }
+    },
+    "for-gh-docs-base": {
+      "name": "GitHub Documentation Repositories",
+      "description": "Directory for documentation repositories",
+      "search_patterns": [
+        "~/repos/docs",
+        "~/repos/documentation",
+        "~/docs",
+        "~/repos/github/docs"
+      ]
+    },
+    "for-gh-websites-base": {
+      "name": "GitHub Website Repositories",
+      "description": "Directory for website/web project repositories",
+      "search_patterns": [
+        "~/repos/websites",
+        "~/repos/web",
+        "~/websites",
+        "~/repos/github/websites"
+      ]
+    },
+    "for-gh-forks-base": {
+      "name": "GitHub Forked Repositories",
+      "description": "Directory for forked repositories from other users",
+      "search_patterns": [
+        "~/repos/forks",
+        "~/forks",
+        "~/repos/github/forks"
+      ]
+    },
+    "for-cloned-projects.base": {
+      "name": "Cloned Third-Party Projects",
+      "description": "Directory for cloned third-party open source projects",
+      "search_patterns": [
+        "~/repos/cloned",
+        "~/cloned-repos",
+        "~/repos/github/cloned"
+      ]
+    }
+  },
+  "deployment_options": {
+    "backup_existing": true,
+    "backup_suffix": ".backup",
+    "skip_if_exists": false,
+    "create_missing_dirs": true,
+    "validate_before_deploy": true
+  }
+}

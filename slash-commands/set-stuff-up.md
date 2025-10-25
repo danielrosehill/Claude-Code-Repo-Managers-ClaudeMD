@@ -1,0 +1,1 @@
+This repository consists of templated CLAUDE.md files intended to 
