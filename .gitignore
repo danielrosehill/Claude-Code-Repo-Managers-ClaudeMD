@@ -1,0 +1,12 @@
+# This repository allows private folders to be committed
+# This overrides global gitignore settings
+
+# Standard ignores
+*.log
+*.tmp
+.DS_Store
+node_modules/
+.env
+.venv/
+__pycache__/
+*.pyc
